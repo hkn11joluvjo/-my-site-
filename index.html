@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>京呉服 雅乃｜日本の美を纏う</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+<header class="header">
+
+  <div class="header-inner">
+
+    <a href="#" class="logo">
+      <span class="logo-mark">✿</span>
+      <div>
+        <strong>京呉服　雅乃</strong>
+        <small>〜Kimono〜</small>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="#category">振袖</a>
+      <a href="#category">訪問着</a>
+      <a href="#category">七五三</a>
+      <a href="#category">レンタル</a>
+      <a href="#guide">ご利用案内</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+
+    <div class="header-icons">
+      <button class="icon-button" aria-label="検索">⌕</button>
+      <button class="icon-button" aria-label="カート">🛒</button>
+    </div>
+
+    <button class="menu-button" id="menuButton">
+      ☰
+    </button>
+
+  </div>
+
+</header>
+
+
+<!-- =========================
+     HERO SLIDER
+========================= -->
+<section class="hero">
+
+  <div class="hero-slider">
+
+    <!-- SLIDE 1 -->
+    <div class="hero-slide active">
+
+      <img src="https://i.ibb.co/m5dwvcsh/IMG-9680.jpg-" alt="成人の日の＞振袖">
+
+      <div class="hero-copy">
+        <h1>日本の美を纏う。</h1>
+        <p>
+          成人の日、特別なおでかけ、節目を飾る<br>
+          最高のひとときを。
+        </p>
+      </div> 
+
+    </div>
+
+
+    <!-- SLIDE 2 -->
+    <div class="hero-slide">
+
+      <img src=https://i.ibb.co/PGWrxFcM/IMG-9714.jpg" alt="美七五三">
+
+      <div class="hero-copy">
+        <h1></h1>
+      </div>
+
+    </div>
+
+
+
+
+  <!-- 手動操作ボタン -->
+  <button class="hero-prev" id="heroPrev">‹</button>
+  <button class="hero-next" id="heroNext">›</button>
+
+
+  <!-- ドット -->
+  <div class="hero-dots" id="heroDots">
+    <button class="dot active" data-slide="0"></button>
+    <button class="dot" data-slide="1"></button>
+  </div>
+
+</section>
+
+<!-- =========================
+     MOBILE MENU
+========================= -->
+
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<aside class="mobile-menu" id="mobileMenu">
+
+  <div class="mobile-menu-header">
+
+    <div class="mobile-menu-title">
+      MENU
+    </div>
+
+    <button
+      class="menu-close"
+      id="menuClose"
+      aria-label="メニューを閉じる"
+    >
+      ×
+    </button>
+
+  </div>
+
+
+  <nav class="mobile-nav">
+
+    <a href="#">
+      <span>振袖</span>
+      <b>›</b>
+    </a>
+
+    <a href="#">
+      <span>訪問着</span>
+      <b>›</b>
+    </a>
+
+    <a href="#">
+      <span>七五三</span>
+      <b>›</b>
+    </a>
+
+    <a href="#">
+      <span>レンタル</span>
+      <b>›</b>
+    </a>
+
+    <a href="#">
+      <span>ご利用案内</span>
+      <b>›</b>
+    </a>
+
+    <a href="#">
+      <span>お問い合わせ</span>
+      <b>›</b>
+    </a>
+
+  </nav>
+
+
+  <div class="mobile-menu-bottom">
+
+    <a href="#">会社概要</a>
+
+    <a href="#">アクセス</a>
+
+    <a href="#">プライバシーポリシー</a>
+
+  </div>
+
+</aside>
+
+<!-- =========================
+     SCENE
+========================= -->
+<section class="scene section">
+
+  <div class="section-heading"> 
+
+    <span>SCENE</span>
+
+    <h2>シーンから選ぶ</h2>
+
+  </div>
+
+
+  <div class="scene-grid">
+
+    <a href="#" class="scene-card">
+      <img src="https://i.ibb.co/KjF5t2ZP/IMG-9703.jpg" alt="成人の日">
+      <div>
+        <span>成人の日</span>
+        <b>→</b>
+      </div>
+    </a>
+
+    <a href="#" class="scene-card">
+      <img src="https://i.ibb.co/S4C0MPbg/IMG-9704.jpg" alt="お出掛け">
+      <div>
+        <span>お出掛け</span>
+        <b>→</b>
+      </div>
+    </a>
+
+    <a href="#" class="scene-card">
+      <img src="https://i.ibb.co/cqnbvPF/IMG-9705.jpg" alt="七五三">
+      <div>
+        <span>七五三</span>
+        <b>→</b>
+      </div>
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     CATEGORY
+========================= -->
+<section class="category section" id="category">
+
+  <div class="section-heading">
+
+    <span>CATEGORY</span>
+
+    <h2>商品カテゴリーから選ぶ</h2>
+
+  </div>
+
+
+  <div class="category-grid">
+
+    <a href="#" class="category-item">
+      <span class="category-flower">✿</span>
+      <span>振袖</span>
+      <b>›</b>
+    </a>
+
+    <a href="#" class="category-item">
+      <span class="category-flower purple">✿</span>
+      <span>訪問着</span>
+      <b>›</b>
+    </a>
+
+    <a href="#" class="category-item">
+      <span class="category-flower red">✿</span>
+      <span>七五三</span>
+      <b>›</b>
+    </a>
+
+    <a href="#" class="category-item">
+      <span class="category-flower gold">✿</span>
+      <span>帯</span>
+      <b>›</b>
+    </a>
+
+    <a href="#" class="category-item">
+      <span class="category-flower green">✿</span>
+      <span>小物</span>
+      <b>›</b>
+    </a>
+
+    <a href="#" class="category-item">
+      <span class="category-flower blue">✿</span>
+      <span>草履</span>
+      <b>›</b>
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     NEW ARRIVAL
+========================= -->
+<section class="products section">
+
+  <div class="section-heading">
+
+    <span>NEW ARRIVAL</span>
+
+    <h2>新着商品</h2>
+
+  </div>
+
+
+  <div class="product-grid">
+
+    <article class="product-card">
+
+      <div class="product-image">
+        <img src="https://i.ibb.co/7JRCYQ9S/IMG-9710.jpg" alt="京友禅 振袖">
+      </div>
+
+      <div class="product-info">
+
+        <h3>京友禅 振袖「花の宴」</h3>
+
+        <p>振袖</p>
+
+        <strong>¥100,000</strong>
+
+        <a href="#" class="product-button">
+          詳細を見る →
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <article class="product-card"> 
+
+      <div class="product-image">
+        <img src="https://i.ibb.co/x8jnyLQ8/IMG-9711.jpg" alt="訪問着">
+      </div>
+
+      <div class="product-info">
+
+        <h3>訪問着「春の彩」</h3>
+
+        <p>訪問着</p>
+
+        <strong>¥100,000</strong>
+
+        <a href="#" class="product-button">
+          詳細を見る →
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <div class=" product-image">
+        <img src="https://i.ibb.co/CKzmj7fT/IMG-9712.jpg" alt="黒留袖">
+      </div>
+
+      <div class="product-info">
+
+        <h3>黒留袖「松竹梅」</h3>
+
+        <p>留袖</p>
+
+        <strong>¥100,000</strong>
+
+        <a href="#" class="product-button">
+          詳細を見る →
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+<section class="about">
+
+  <div class="about-image">
+    <img src="https://i.ibb.co/xSv87jqP/IMG-9716.jpg" alt="着物">
+  </div>
+
+  <div class="about-text">
+
+    <h2>雅乃が大切にする、日本の美。</h2>
+
+    <p>
+      伝統を受け継ぎながら、<br>
+      今の時代に寄り添う、上質な着物をお届けします。
+    </p>
+
+    <a href="#" class="dark-button">
+      雅乃について →
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+<footer class="footer" id="contact">
+
+  <div class="footer-inner">
+
+    <div class="footer-logo">
+      <span>✿</span>
+      <div>
+        <strong>京呉服　雅乃</strong>
+        <small>〜Kimono〜</small>
+      </div>
+    </div>
+
+
+    <div class="footer-links">
+
+      <a href="#">会社概要</a>
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">アクセス</a>
+
+    </div>
+
+
+    <div class="sns">
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
