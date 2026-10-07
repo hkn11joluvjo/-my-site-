@@ -1054,3 +1054,20 @@ a {
 
 
 
+/* HERO */
+
+.hero {
+  height: auto;
+  min-height: 0;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
