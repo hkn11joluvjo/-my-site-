@@ -1069,9 +1069,10 @@ a {
   gap: 25px;
 }
 
+/* スマホだけ2列 */
 @media screen and (max-width: 767px) {
   .scene-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 15px;
   }
 }
