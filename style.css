@@ -2,7 +2,7 @@
    RESET
 ========================= */
 
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,12 +29,10 @@ img {
   display: block;
 }
 
-{
+a {
   color: inherit;
   text-decoration: none;
 }
-
-
 
 /* =========================
    HEADER
@@ -59,7 +57,6 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-
 
 /* LOGO */
 
@@ -87,7 +84,6 @@ img {
   text-align: center;
 }
 
-
 /* NAV */
 
 .nav {
@@ -103,7 +99,6 @@ img {
 .nav a:hover {
   color: #b38a2c;
 }
-
 
 /* HEADER ICON */
 
@@ -132,8 +127,6 @@ img {
 .menu-button {
   display: none;
 }
-
-
 
 /* =========================
    HERO
@@ -175,7 +168,6 @@ img {
   object-fit: cover;
 }
 
-
 /* HERO TEXT */
 
 .hero-copy {
@@ -203,7 +195,6 @@ img {
   font-size: 17px;
   line-height: 2;
 }
-
 
 /* SLIDE BUTTON */
 
@@ -247,7 +238,6 @@ img {
   background: rgba(0,0,0,.5);
 }
 
-
 /* DOT */
 
 .hero-dots {
@@ -280,8 +270,6 @@ img {
   background: white;
 }
 
-
-
 /* =========================
    SECTION
 ========================= */
@@ -291,7 +279,6 @@ img {
   margin: auto;
   padding: 80px 30px;
 }
-
 
 /* SECTION TITLE */
 
@@ -319,8 +306,6 @@ img {
   font-weight: 400;
   letter-spacing: .12em;
 }
-
-
 
 /* =========================
    SCENE
@@ -354,8 +339,6 @@ img {
   color: #ad8025;
   font-weight: normal;
 }
-
-
 
 /* =========================
    CATEGORY
@@ -432,8 +415,6 @@ img {
 .category-flower.blue {
   color: #6489a8;
 }
-
-
 
 /* =========================
    PRODUCTS
@@ -513,8 +494,6 @@ img {
   font-size: 11px;
 }
 
-
-
 /* =========================
    ABOUT
 ========================= */
@@ -580,8 +559,6 @@ img {
   font-size: 12px;
 }
 
-
-
 /* =========================
    FOOTER
 ========================= */
@@ -642,8 +619,6 @@ img {
   font-size: 10px;
 }
 
-
-
 /* =========================
    MOBILE
 ========================= */
@@ -678,13 +653,12 @@ img {
     cursor: pointer;
   }
 
-
   /* HERO */
 
-.hero {
-  height: 75vh;
-  min-height: 450px;
-}
+  .hero {
+    height: 75vh;
+    min-height: 450px;
+  }
 
   .hero-copy {
     left: 7%;
@@ -715,7 +689,6 @@ img {
     right: 10px;
   }
 
-
   /* SECTION */
 
   .section {
@@ -726,14 +699,13 @@ img {
     font-size: 22px;
   }
 
-
   /* SCENE */
 
-.scene-grid {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
+  .scene-grid {
+    grid-template-columns: 1fr;
 
+    gap: 30px;
+  }
 
   /* CATEGORY */
 
@@ -741,13 +713,11 @@ img {
     grid-template-columns: 1fr;
   }
 
-
   /* PRODUCTS */
 
   .product-grid {
     grid-template-columns: 1fr;
   }
-
 
   /* ABOUT */
 
@@ -773,7 +743,6 @@ img {
     font-size: 21px;
   }
 
-
   /* FOOTER */
 
   .footer-inner {
@@ -788,32 +757,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .mobile-menu {
-    width: 340px;
-
-    max-width: 88vw;
-  }
-
-  .mobile-menu-header {
-    height: 70px;
-
-    padding: 0 20px;
-  }
-
-  .mobile-nav {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
 }
-
-
-
-
-
-
-
 
 /* =========================
    MOBILE MENU
@@ -835,7 +779,6 @@ img {
 
   padding: 5px;
 }
-
 
 /* =========================
    背景の暗幕
@@ -859,7 +802,6 @@ img {
   z-index: 9998;
 }
 
-
 /* メニューが開いた状態 */
 
 .menu-overlay.active {
@@ -867,8 +809,6 @@ img {
 
   visibility: visible;
 }
-
-
 
 /* =========================
    右側メニュー
@@ -900,14 +840,11 @@ img {
   overflow-y: auto;
 }
 
-
 /* 開いた状態 */
 
 .mobile-menu.active {
   transform: translateX(0);
 }
-
-
 
 /* =========================
    メニューヘッダー
@@ -927,7 +864,6 @@ img {
   border-bottom: 1px solid #ded4c1;
 }
 
-
 .mobile-menu-title {
   font-family: serif;
 
@@ -937,7 +873,6 @@ img {
 
   color: #a47d2a;
 }
-
 
 .menu-close {
   width: 40px;
@@ -958,8 +893,6 @@ img {
   line-height: 1;
 }
 
-
-
 /* =========================
    メニュー項目
 ========================= */
@@ -967,7 +900,6 @@ img {
 .mobile-nav {
   padding: 10px 25px 30px;
 }
-
 
 .mobile-nav a {
   display: flex;
@@ -987,13 +919,11 @@ img {
   transition: .25s;
 }
 
-
 .mobile-nav a:hover {
   color: #a47d2a;
 
   padding-left: 8px;
 }
-
 
 .mobile-nav b {
   font-size: 22px;
@@ -1002,8 +932,6 @@ img {
 
   color: #a47d2a;
 }
-
-
 
 /* =========================
    メニュー下部
@@ -1023,14 +951,11 @@ img {
   gap: 15px;
 }
 
-
 .mobile-menu-bottom a {
   font-size: 12px;
 
   color: #777;
 }
-
-
 
 /* =========================
    タブレット・スマホ
@@ -1052,22 +977,41 @@ img {
 
 }
 
+/* =========================
+   スマホ
+========================= */
 
+@media (max-width: 768px) {
 
-/* HERO */
+  .mobile-menu {
+    width: 340px;
 
-.hero {
-  height: auto;
-  min-height: 0;
+    max-width: 88vw;
+  }
+
+  .mobile-menu-header {
+    height: 70px;
+
+    padding: 0 20px;
+  }
+
+  .mobile-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
 
-.hero-slide {
-  position: absolute;
-  inset: 0;
+.scene-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
 
-.hero-slide img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+/* スマホだけ2列 */
+@media screen and (max-width: 767px) {
+  .scene-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px;
+  }
 }
