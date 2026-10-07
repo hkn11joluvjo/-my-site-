@@ -756,6 +756,23 @@ a {
     flex-wrap: wrap;
     justify-content: center;
   }
+  
+    .mobile-menu {
+    width: 340px;
+
+    max-width: 88vw;
+  }
+
+  .mobile-menu-header {
+    height: 70px;
+
+    padding: 0 20px;
+  }
+
+  .mobile-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* =========================
@@ -976,28 +993,5 @@ a {
 
 }
 
-/* =========================
-   スマホ
-========================= */
 
-@media (max-width: 768px) {
-
-  .mobile-menu {
-    width: 340px;
-
-    max-width: 88vw;
-  }
-
-  .mobile-menu-header {
-    height: 70px;
-
-    padding: 0 20px;
-  }
-
-  .mobile-nav {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-}
 
