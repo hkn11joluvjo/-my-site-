@@ -699,13 +699,12 @@ a {
     font-size: 22px;
   }
 
-  /* SCENE */
+/* SCENE */
 
-  .scene-grid {
-    grid-template-columns: 1fr;
-
-    gap: 30px;
-  }
+.scene-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
 
   /* CATEGORY */
 
@@ -1002,16 +1001,3 @@ a {
 
 }
 
-.scene-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-
-/* スマホだけ2列 */
-@media screen and (max-width: 767px) {
-  .scene-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 15px;
-  }
-}
