@@ -650,9 +650,24 @@ a {
 
 @media (max-width: 768px) {
 
-  .header {
-    height: 60px;
+  .hero {
+
+    height: 55vw;
+
+    min-height: 0;
+
   }
+
+  .hero-slide img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+  }
+　
 
   .header-inner {
     padding: 0 15px;
