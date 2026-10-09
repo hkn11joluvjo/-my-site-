@@ -96,6 +96,8 @@ a {
   display: flex;
   gap: 30px;
   font-size: 13px;
+  position: relative;
+  left: 30px;
 }
 
 .nav a {
