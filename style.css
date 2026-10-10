@@ -37,7 +37,7 @@ a {
 /* =========================
    HEADER
 ========================= */
-=
+
 .header {
   height: 70px;
   background: #fffdf7;
@@ -49,6 +49,7 @@ a {
   width: 100%;
   z-index: 100;
 }
+
 
 .header-inner {
   max-width: 1200px;
@@ -146,6 +147,8 @@ margin-left: auto;
 margin-right: 30px;
 }
 }
+
+
 /* =========================
    HERO
 ========================= */
