@@ -688,10 +688,13 @@ margin-right: 30px;
     min-height: 450px;
   }
   
-  /* 1枚目の画像だけ右寄りにする */
-  .hero-slide.active img {
+
+  /* 1枚目だけ右寄りにする */
+  .hero-slide:first-child img {
     object-position: 75% center;
   }
+
+
 
 
   .hero-copy {
