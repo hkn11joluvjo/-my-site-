@@ -147,16 +147,7 @@ body {
   margin-top: 0;
 }
 
-/* =========================
-PC ONLY：ナビゲーションを右寄せ
-========================= */
 
-@media screen and (min-width: 1025px) {
-.nav {
-margin-left: auto;
-margin-right: 30px;
-}
-}
 
 
 /* =========================
