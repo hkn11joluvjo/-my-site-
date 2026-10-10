@@ -40,10 +40,16 @@ a {
 
 .header {
   height: 70px;
+  box-sizing: border-box;
   background: #fffdf7;
   border-bottom: 1px solid #e6dcc4;
-  position: relative;
-  z-index: 100;
+
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .header-inner {
@@ -126,6 +132,16 @@ a {
 
 .menu-button {
   display: none;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.hero {
+  position: relative;
+  margin-top: 0;
 }
 
 
