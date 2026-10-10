@@ -982,16 +982,11 @@ margin-right: 30px;
 ========================= */
 
 .mobile-menu-bottom {
-  margin: 10px 25px 40px;
-
-  padding-top: 25px;
-
+  margin: 0 25px 40px;
+  padding-top: 10px;
   border-top: 1px solid #ded4c1;
-
   display: flex;
-
   flex-direction: column;
-
   gap: 15px;
 }
 
