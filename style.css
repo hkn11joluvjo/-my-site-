@@ -687,6 +687,12 @@ margin-right: 30px;
     height: 75vh;
     min-height: 450px;
   }
+  
+  /* 1枚目の画像だけ右寄りにする */
+  .hero-slide.active img {
+    object-position: 75% center;
+  }
+
 
   .hero-copy {
     left: 7%;
